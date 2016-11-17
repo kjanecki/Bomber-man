@@ -1,7 +1,7 @@
 #include <stdio.h> // Ficasso jest spoko.
 #include <iostream.h>
 
-float suma (float a, float b)
+float suma (float a, float b) // lecimy z koksem
 {
       return a+b;
       }
