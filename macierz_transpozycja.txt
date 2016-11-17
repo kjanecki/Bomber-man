@@ -43,7 +43,7 @@ cout<<"\n\n\n    detA = "<<detA<<"\n\n\n";
       dop[1][2]=A[0][0]*A[2][1]-A[2][0]*A[0][1]*(-1),
       dop[2][2]=A[0][0]*A[1][1]-A[1][0]*A[0][1];
 
-cout<<"              odwrotna m. A\n\n";
+cout<<"              odwrotna m. A\n\n"; // chyba ty
 
 for(i=0;i<3;i++)
 {
