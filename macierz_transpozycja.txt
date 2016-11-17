@@ -56,4 +56,4 @@ cout<<"    "<<odA[0][0]<<"       "<<odA[0][1]<<"           "<<odA[0][2]<<endl<<e
     <<"       "<<odA[2][0]<<"        "<<odA[2][1]<<"         "<<odA[2][2]<<endl<<endl;
 
 cout<<"\n\n\n\n";
-system("pause");}
+system("pause");}//asdasd
