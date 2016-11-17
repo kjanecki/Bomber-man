@@ -36,7 +36,7 @@ for (int q = 0; q < n ; ++q){
    
   }
   cout<< "\n";
-  wpisz << "\n ";
+  wpisz << "\n "; // ola ola 
 }
  
   cout <<endl;
