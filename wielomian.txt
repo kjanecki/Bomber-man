@@ -27,7 +27,7 @@ int czytaj()
     for(i=n;i>=0;i--)
     {
                      printf("A%d=", i);
-                     scanf("%lf", T+i);
+                     scanf("%lf", T+i); //asdasdasd
     }
     printf("n=%d x=%.3lf\n",n,x);
     return n;
