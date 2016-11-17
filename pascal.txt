@@ -5,7 +5,7 @@ using namespace std;
 unsigned short int n,i;
 //short int j;
 double wiersz[150];
-int main(int argc, char* argv[])
+int main(int argc, char* argv[]) // terraria
 {
 
 ofstream wpisz;
