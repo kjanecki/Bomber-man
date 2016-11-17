@@ -44,4 +44,4 @@ int main(int argc, char *argv[])
     mk_dni_mies_rok();
     printf("%s\n",tydzien[(d+dni_mies_rok[m-1]+r+ile_przestepnych(r))%7]);
   }
-}
+}//koniec2
