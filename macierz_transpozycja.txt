@@ -6,7 +6,7 @@ using namespace std;
 float odA[3][3], dop[3][3], A[3][3]={1,2,3,2,1,4,2,1,5};
 int i, j;                          
 
-main()
+main() // janeckiemu cos nie idzie xd
 {
 for(i=0;i<3;i++)                                            // dla kazdego wiersza i zostaja pzypisane liczyby kolumn j
 {for(j=0;j<3;j++)
