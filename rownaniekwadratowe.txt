@@ -48,4 +48,4 @@ if (a==0)
        
 }
 system ("pause");
-}
+}//asd
