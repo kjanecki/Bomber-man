@@ -8,7 +8,7 @@ char
 *S[]=   {"","sto", "dwiescie", "trzysta", "czterysta", "piecset", "szecset", "siedemset", "osiemset", "dziewiecset"};
 
 
-int czytaj()
+int czytaj() // qwerty
 {
     int l;
     do
