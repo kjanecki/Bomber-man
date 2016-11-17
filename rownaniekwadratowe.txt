@@ -1,6 +1,6 @@
 
 #include<math.h>
-#include<iostream.h>
+#include<iostream.h> //kwadrat
 
 int a,b,c;
 int delta(int a, int b,int c)
