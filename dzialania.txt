@@ -40,3 +40,4 @@ cout<<" iloraz a\b wynosi: "<<iloraz(a,b)<<"\n";
 
 system("pause");
 }
+//koniec
