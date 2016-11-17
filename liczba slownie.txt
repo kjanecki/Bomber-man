@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>    // pow()
+#include <math.h>    // pow() // raz dwa trzy
 
 /* rozklad_liczby - rozklada liczby na jednosci dziesiatki i setki oraz
    okresla forme gramatyczna przyrostka                                  */
