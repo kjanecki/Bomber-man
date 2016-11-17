@@ -49,7 +49,7 @@ double getN(double n, double s, double A[ 10]){
 int main(int argc, char *argv[])
 {
    
-    double n, s, b=0, A[ 10];
+    double n, s, b=0, A[ 10]; // fifi
     getN(n,s,A);    
     //srednia(b,n,A);
     system("PAUSE");

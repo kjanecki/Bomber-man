@@ -32,7 +32,7 @@ int ile_przestepnych(int r)
   return iprzestepnych;
 }
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) // siemanko
 {
   int d,m,r;
   for(;;){

@@ -35,7 +35,7 @@ int zam(int l)
               t=(l%100);
               d=(t/10);
               j=(t%10);
-              printf("s³ownie %s %s %s\n\n",S[s],D[d],J[j]);
+              printf("s³ownie %s %s %s\n\n",S[s],D[d],J[j]); // palel
         }
      
         return 0;

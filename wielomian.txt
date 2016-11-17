@@ -38,7 +38,7 @@ int main()
     double S=0,N;
     czytaj();
     for(i=n;i>=0;i--) S+=(T[i]*(pow(x,i)));
-    printf("wartosc wielomianu wynosi: \ny(x)=%.4lf\n",S);
+    printf("wartosc wielomianu wynosi: \ny(x)=%.4lf\n",S); // ja juz skonczylem
     printf("X=%.3lf n=%d",x,n);
     scanf("%d",&N);
     return 0;
