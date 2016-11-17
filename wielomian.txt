@@ -4,7 +4,7 @@
 
 int n;
 double x;
-const int M=200;
+const int M=200; // puk puk
 double T[M];
 
 int czytaj()
