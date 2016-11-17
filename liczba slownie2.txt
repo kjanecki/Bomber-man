@@ -62,4 +62,4 @@ int main()
                    
          scanf("%s",&p);
          return 0;
-}
+} //koniec4
