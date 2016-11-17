@@ -43,7 +43,7 @@ if (a==0)
    else
    {
        d=delta(a,b,c);
-       cout<<"Delta rownania wynosi:"<<d;
+       cout<<"Delta rownania wynosi:"<<d; // endless summer
        cout<<"\n";
        
 }
