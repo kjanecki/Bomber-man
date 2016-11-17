@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 char *tydzien[7]={"sobota","niedziela","poniedzialek","wtorek","sroda","czwartek","piatek"};
