@@ -1,0 +1,79 @@
+
+#include <stdio.h>
+#include <string.h>
+
+struct Rzym_t
+{
+  char s;
+  int w;
+};
+
+const Rzym_t Rzym[]=
+{
+  {'I',     1},
+  {'V',     5},
+  {'X',    10},
+  {'L',    50},
+  {'C',   100},
+  {'D',   500},
+  {'M',  1000},
+  {'\0',    0}
+};
+
+int pos(char znak)
+{
+  int n;
+  for(n=0; Rzym[n].s!=znak; n++) 
+          if(Rzym[n].s=='\0') 
+          return -1;
+  return n;
+}
+
+int romtodec(char Rliczba[])
+{
+  int sum, i;
+  
+  i=strlen(Rliczba);
+  
+  for(i--,sum=0;i>=0;)
+  {
+    if(i>0)
+    {
+      if(pos(Rliczba[i])<=(pos(Rliczba[i-1])))
+      {
+        sum+=Rzym[pos(Rliczba[i])].w;
+        i--;
+      } 
+          else
+      {
+        sum+=Rzym[pos(Rliczba[i])].w-Rzym[pos(Rliczba[i-1])].w;
+        i-=2;
+      }
+    } 
+        else
+    {
+          sum+=Rzym[pos(Rliczba[0])].w;
+      i--;
+    }
+  }
+  return sum;
+}
+
+int main()
+{
+  char Rliczba[20];
+
+  printf("\tProgram przeksztalca liczby rzymskie na arabskie.\n\n");
+
+  for(;;)
+  {
+    printf("Podaj rzymska liczbe: ");
+    gets(Rliczba);
+        printf("\n");
+   
+        if(!strlen(Rliczba)) 
+                return 0;
+    printf("Arabska liczba: %d\n\n", romtodec(Rliczba));
+  }
+}
+ 
