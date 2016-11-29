@@ -3,7 +3,7 @@
 char *tydzien[7]={"sobota","niedziela","poniedzialek","wtorek","sroda","czwartek","piatek"};
 int dni_mies[12]={31,28,31,30,31,30,31,31,30,31,30,31};
 int dni_mies_rok[12];
-
+// sprawdzenie .gitignore
 int sprawdz_date(int d, int m, int r)
 {
   return (d>0 && d<=dni_mies[m-1]) && (m>=1 && m<=12) && (r>=1582 && r<=2999);
