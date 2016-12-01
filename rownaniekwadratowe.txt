@@ -2,6 +2,8 @@
 #include<math.h>
 #include<iostream.h>
 
+// Modyfikuje plik 2016-12-01 #5
+
 int a,b,c;
 int delta(int a, int b,int c)
 {return b*b-4*a*c;}
