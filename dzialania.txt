@@ -1,6 +1,9 @@
 #include <stdio.h> // Ficasso jest spoko.
 #include <iostream.h>
 // kolejna zmiana
+
+// Modyfikacja master #3
+
 float suma (float a, float b) // gitara siema
 {
       return a+b;
