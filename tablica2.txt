@@ -3,6 +3,7 @@
 #include <cstdio>
 #include <cmath>
 
+// Modyfikacja master #1
 
 using namespace std;
 
