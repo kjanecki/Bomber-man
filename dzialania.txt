@@ -1,6 +1,8 @@
 #include <stdio.h> // Ficasso jest spoko.
 #include <iostream.h>
 
+// Modyfikacja Galaz-druga #2
+
 float suma (float a, float b)
 {
       return a+b;
