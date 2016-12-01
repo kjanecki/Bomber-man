@@ -4,6 +4,10 @@
 // raz dwa trzy
 using namespace std;
 
+// Modyfikacja master #2
+
+
+
 int main(int argc, char *argv[])
 {
    
