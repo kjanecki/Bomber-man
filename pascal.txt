@@ -4,6 +4,10 @@
 using namespace std;
 unsigned short int n,i;
 //short int j;
+
+
+// Modyfikuje plik 2016-12-01 #1
+
 double wiersz[150];
 int main(int argc, char* argv[])
 {
