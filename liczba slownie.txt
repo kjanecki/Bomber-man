@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <math.h>    // pow()
 
+// Modyfikuje plik 2016-12-01 #4
+
 /* rozklad_liczby - rozklada liczby na jednosci dziesiatki i setki oraz
    okresla forme gramatyczna przyrostka                                  */
 
