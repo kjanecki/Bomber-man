@@ -3,6 +3,7 @@
 // kolejna zmiana
 
 // Modyfikacja master #3
+// Modyfikacja Galaz-druga #2
 
 float suma (float a, float b) // gitara siema
 {
